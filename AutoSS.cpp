@@ -338,7 +338,7 @@ delay(40);
 digitalWrite(buzz,LOW);
 lcd.clear();
 lcd.setCursor(2,0);
-lcd.print("RE-LOCKING!!!!");
+lcd.print("RE-LOCKING");
 delay(500);
 lcd.setCursor(12,0);
 lcd.print(".");
