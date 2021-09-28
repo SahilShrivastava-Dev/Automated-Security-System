@@ -17,7 +17,9 @@ char key[rows][cols]={
 byte rowPins[rows]={1,2,3,4};
 byte colPins[cols]={5,6,7};
 Keypad keypad= Keypad(makeKeymap(key),rowPins,colPins,rows,cols);
-char* password="4567";
+//enter the password you want to set
+char* password="4567"
+//***********************************
 int currentposition=0;
 int redled=10;
 int greenled=11;
@@ -336,7 +338,7 @@ delay(40);
 digitalWrite(buzz,LOW);
 lcd.clear();
 lcd.setCursor(2,0);
-lcd.print("RE-LOCKING");
+lcd.print("RE-LOCKING!!!!");
 delay(500);
 lcd.setCursor(12,0);
 lcd.print(".");
